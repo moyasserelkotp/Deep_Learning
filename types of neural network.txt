@@ -1,0 +1,87 @@
+1. Feedforward Neural Network (FNN)
+Description: The simplest type of artificial neural network. Information moves in one direction: from input to hidden layers (if any), and finally to the output layer.
+Use Case:
+Image recognition
+Simple classification tasks
+Key Feature: No feedback loops; inputs are passed forward through the layers.
+
+2. Convolutional Neural Network (CNN)
+Description: CNNs are primarily used for processing grid-like data such as images. They use convolutional layers to detect spatial hierarchies in data by applying filters.
+Use Case:
+Image classification (e.g., object detection)
+Video analysis
+Medical image analysis
+Key Feature: Convolutional layers, pooling layers, and fully connected layers for spatial feature extraction.
+
+3. Recurrent Neural Network (RNN)
+Description: RNNs are designed for sequential data. Unlike feedforward networks, they have loops allowing information to be passed from one step to the next.
+Use Case:
+Time-series forecasting
+Natural language processing (NLP)
+Speech recognition
+Key Feature: Hidden states that allow processing of temporal sequences and retain memory of previous inputs.
+
+4. Long Short-Term Memory (LSTM)
+Description: LSTMs are a specialized form of RNN designed to overcome the vanishing gradient problem. They can learn long-term dependencies by controlling what information is remembered or forgotten.
+Use Case:
+Time-series prediction
+Text generation
+Speech synthesis
+Key Feature: LSTM cells have gates (input, forget, and output) to regulate memory flow over long sequences.
+
+5. Gated Recurrent Unit (GRU)
+Description: GRUs are a simplified variant of LSTMs. They also manage long-term dependencies but with fewer gates and simpler architecture.
+Use Case:
+Similar to LSTM applications (time-series, NLP)
+Key Feature: Fewer parameters than LSTM, faster to train, but performs comparably on many tasks.
+
+6. Autoencoder
+Description: Autoencoders are unsupervised learning models used for tasks like data compression and denoising. They learn a compressed representation of input data (encoding) and then reconstruct the original data (decoding).
+Use Case:
+Dimensionality reduction
+Anomaly detection
+Image denoising
+Key Feature: Encoder-decoder architecture; used for unsupervised learning.
+
+7. Generative Adversarial Network (GAN)
+Description: GANs consist of two networks, a generator and a discriminator, which compete against each other. The generator tries to create fake data, while the discriminator tries to distinguish between real and fake data.
+Use Case:
+Image generation
+Deepfake creation
+Style transfer
+Key Feature: Adversarial training that pits two models against each other to improve the quality of generated data.
+
+8. Radial Basis Function Network (RBFN)
+Description: RBFNs are a type of feedforward neural network that uses radial basis functions as activation functions. They are often used for interpolation and approximation tasks.
+Use Case:
+Function approximation
+Time-series prediction
+Key Feature: Uses radial basis functions for neuron activations, often applied in regression tasks.
+
+9. Transformer Network
+Description: A cutting-edge neural network architecture, the transformer is designed for handling sequential data, but unlike RNNs, it doesn’t process data in order. It uses a mechanism called self-attention to weigh the importance of each part of the sequence.
+Use Case:
+Natural language processing (e.g., language models like GPT)
+Machine translation
+Text summarization
+Key Feature: Attention mechanism and parallelization, enabling efficient processing of sequences.
+
+10. Modular Neural Network (MNN)
+Description: MNNs consist of multiple independent sub-networks (modules), where each performs a specific task. The outputs of these sub-networks are combined to produce the final output.
+Use Case:
+Complex tasks that require decomposing into sub-tasks
+Key Feature: Modular approach, useful for solving large-scale problems by breaking them into smaller, manageable parts.
+
+11. Self-Organizing Map (SOM)
+Description: SOMs are unsupervised learning models that use competitive learning to map high-dimensional data into lower-dimensional space (often 2D), preserving topological properties.
+Use Case:
+Data visualization
+Clustering
+Key Feature: Useful for mapping and visualizing high-dimensional data in lower dimensions.
+
+12. Spiking Neural Networks (SNN)
+Description: Inspired by biological neurons, SNNs work by simulating neurons that "spike" (fire) when certain thresholds are reached. They are considered more biologically plausible compared to traditional networks.
+Use Case:
+Neuroscience research
+Neuromorphic computing
+Key Feature: Use of spike-timing and thresholds, more closely mimicking real brain activity.
